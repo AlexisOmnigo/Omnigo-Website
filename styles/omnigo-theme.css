@@ -1,0 +1,55 @@
+/* Omnigo Theme CSS - Based on the GPS Digital metaphor */
+
+:root {
+  /* Main brand colors */
+  --omnigo-primary: #0078D4; /* A trustworthy blue tone that suggests guidance and reliability */
+  --omnigo-secondary: #2BB673; /* A refreshing green for growth and success */
+  --omnigo-accent: #FF6B00; /* An energetic orange for important focus points, like GPS highlighted route */
+  
+  /* UI colors */
+  --omnigo-light-bg: #F8F9FA; /* Light background */
+  --omnigo-card-bg: #FFFFFF; /* Card background */
+  --omnigo-dark-text: #333333; /* Main text color */
+  --omnigo-muted-text: #6C757D; /* Secondary text color */
+  --omnigo-border: #E9ECEF; /* Light border */
+  
+  /* Feedback colors */
+  --omnigo-success: #28a745; /* Success indicator */
+  --omnigo-warning: #ffc107; /* Warning indicator */
+  --omnigo-danger: #dc3545; /* Error indicator */
+  --omnigo-info: #17a2b8; /* Information indicator */
+}
+
+/* Light theme class */
+.theme-omnigo-light {
+  /* Applied colors */
+  --background: var(--omnigo-light-bg);
+  --foreground: var(--omnigo-dark-text);
+  
+  --card: var(--omnigo-card-bg);
+  --card-foreground: var(--omnigo-dark-text);
+  
+  --popover: var(--omnigo-card-bg);
+  --popover-foreground: var(--omnigo-dark-text);
+  
+  --primary: var(--omnigo-primary);
+  --primary-foreground: white;
+  
+  --secondary: var(--omnigo-secondary);
+  --secondary-foreground: white;
+  
+  --muted: var(--omnigo-border);
+  --muted-foreground: var(--omnigo-muted-text);
+  
+  --accent: var(--omnigo-accent);
+  --accent-foreground: white;
+  
+  --destructive: var(--omnigo-danger);
+  --destructive-foreground: white;
+  
+  --border: var(--omnigo-border);
+  --input: var(--omnigo-border);
+  --ring: var(--omnigo-primary);
+  
+  --radius: 0.5rem;
+} 

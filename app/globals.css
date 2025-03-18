@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "/styles/omnigo-theme.css";
+
+:root {
+  --foreground: #333333;
+  --background: #FFFFFF;
+  --muted-text: #6C757D;
+  --primary: #0078D4;
+  --secondary: #2BB673;
+  --accent: #FF6B00;
+  --border: #E9ECEF;
+  --card: #FFFFFF;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+.omnigo-light-theme {
+  --background: #FFFFFF;
+  --foreground: #333333;
+  --primary: #0078D4;
+  --secondary: #2BB673;
+  --accent: #FF6B00;
+  --muted: #E9ECEF;
+  --muted-foreground: #6C757D;
+  --card: #FFFFFF;
+  --card-foreground: #333333;
+  --border: #E9ECEF;
+  --input: #E9ECEF;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
